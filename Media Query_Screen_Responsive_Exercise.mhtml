@@ -1,0 +1,61 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:3000/index.html
+Subject: Media Query
+Date: Tue, 5 Nov 2024 11:38:11 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--0z4GOdfLF8gu1gSfUQ4uZH4Vewqg1SEoK7rFNOXsGG----"
+
+
+------MultipartBoundary--0z4GOdfLF8gu1gSfUQ4uZH4Vewqg1SEoK7rFNOXsGG----
+Content-Type: text/html
+Content-ID: <frame-0818F51E2A2AEA2AA5917DF1F04727A2@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:3000/index.html
+
+<!DOCTYPE html><html lang=3D"en"><!--=20
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px=E2=80=8A=E2=80=94=E2=80=8A480px
+[powderblue] iPads and Tablets: 481px=E2=80=8A=E2=80=94=E2=80=8A1200px
+[limegreen] Laptops: 1201px=E2=80=8A=E2=80=94=E2=80=8A1600px
+[seagreen] Desktops: 1601px=E2=80=8Aand more
+--><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+UTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c681d231-=
+6840-4ba1-9f79-28035f271c0b@mhtml.blink" />
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1, minimum-scale=3D1">
+  <title>Media Query</title>
+ =20
+</head>
+
+<body>
+
+
+</body></html>
+------MultipartBoundary--0z4GOdfLF8gu1gSfUQ4uZH4Vewqg1SEoK7rFNOXsGG----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c681d231-6840-4ba1-9f79-28035f271c0b@mhtml.blink
+
+@charset "utf-8";
+
+body { background-color: aquamarine; }
+
+@media (min-width: 319px) and (max-width: 480px) {
+  body { background-color: lightsalmon; }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body { background-color: powderblue; }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body { background-color: limegreen; }
+}
+
+@media (min-width: 1601px) {
+  body { background-color: seagreen; }
+}
+------MultipartBoundary--0z4GOdfLF8gu1gSfUQ4uZH4Vewqg1SEoK7rFNOXsGG------
